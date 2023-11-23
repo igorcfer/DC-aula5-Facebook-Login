@@ -1,0 +1,72 @@
+body{
+    background-color: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+
+.geral{
+   display: flex;
+   margin: auto;
+   width:1000px;
+   height: 500px;
+   align-items: center;
+  
+
+}
+.logo{
+    width: 250px;
+}
+
+hr{
+    border-color:#aaa;
+    box-sizing:border-box;
+    width:100%; 
+    margin-bottom: 20px; 
+  }
+
+.login{
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttom_info-email{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+
+}
+
+.buttom_info-senha{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+
+.buttom_entrar{
+    color: white;
+    background-color: #166FE5;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.buttom_criar{
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #36A420;
+    border-style: none;
+
+}
+
